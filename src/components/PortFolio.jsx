@@ -8,7 +8,7 @@ function PortFolio() {
       id: 1,
       logo: fpage,
       name: "Portfolio Website",
-      github: "https://github.com/your-username/portfolio-website", 
+      github: "https://github.com/10aditi03/Portfolio", 
       desc: "Explore my portfolio, featuring projects that demonstrate my skills in web development."
     },
     {
