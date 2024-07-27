@@ -1,18 +1,11 @@
 import React from "react";
-
-import pic from "../../public/photo.avif";
-
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
-
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa6";
-
+import pic from "../../public/aditi.jpg";
+import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
+import { SiCss3, SiHtml5 } from "react-icons/si";
+import { FaReact, FaNodeJs } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { ReactTyped } from "react-typed";
+
 
 function Home() {
   return (
@@ -23,59 +16,58 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="text-xl">Welcome In My Feed</span>
+            <span className="text-xl">Welcome to My Creative Hub</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
-              {/* <span >Developer</span> */}
+              <h1>Hello, I'm </h1>
               <ReactTyped
-                className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
-                typeSpeed={40}
+                className="text-rose-700 font-bold"
+                strings={["ADITI SHARMA"]}
+                typeSpeed={50}
                 backSpeed={50}
                 loop={true}
               />
             </div>
-            <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+              As a dedicated web developer with a passion for creating dynamic and engaging digital experiences, I invite you to explore my curated collection of projects. My journey in web development has equipped me with a solid foundation in HTML, CSS, JavaScript, and React, and has been further enriched by specialized training and hands-on experience. Here, you’ll find a showcase of my work that demonstrates my commitment to combining aesthetics with functionality to deliver impactful solutions. Whether you’re interested in collaborative opportunities or simply want to see what I’ve been working on, I’m excited to share my expertise and vision with you.
             </p>
             <br />
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
-              <div className="  space-y-2">
-                <h1 className="font-bold text-center ">Available on</h1>
+              <div className="space-y-2">
+                <h1 className="font-bold text-center">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
+                    <a href="mailto:10aditi03@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <FaMailBulk className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
+                    <a href="https://github.com/10aditi03" target="_blank" rel="noopener noreferrer">
+                      <FaGithub className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className=" space-y-2">
-                <h1 className="font-bold text-center">Currently working on</h1>
+              <div className="space-y-2">
+                <h1 className="font-bold text-center">Download Resume</h1>
+                <a
+                  href="../../public/resume.pdf"
+                  download
+                  className="flex items-center space-x-2 text-black-500 hover:text-black-700"
+                >
+                  <span ><BsFillPersonLinesFill className="text-2xl cursor-pointer ml-16"/></span>
+                </a>
+              </div>
+              <div className="space-y-2">
+                <h1 className="font-bold text-center">Actively Engaged In</h1>
                 <div className="flex space-x-5">
-                  <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiExpress className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiHtml5 className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiCss3 className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <FaNodeJs className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                 </div>
@@ -86,12 +78,11 @@ function Home() {
             <img
               src={pic}
               className="rounded-full md:w-[450px] md:h-[450px]"
-              alt=""
+              alt="Aditi Sharma"
             />
           </div>
         </div>
       </div>
-
       <hr />
     </>
   );

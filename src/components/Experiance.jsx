@@ -1,17 +1,17 @@
 import React from "react";
-import html from "../../public/html.png";
+import html from "../../public/html5.jpg";
 import css from "../../public/css.jpg";
-import java from "../../public/java.png";
 import javascript from "../../public/javascript.png";
-import oracle from "../../public/oracle.png";
-import spring from "../../public/spring.png";
-import springBoot from "../../public/springBoot.jpg";
+import ReactJs from '../../public/react.jpg';
+import tailwind from '../../public/tailwind.jpg';
+import mongodb from "../../public/mongodb.jpg";
+import git from "../../public/git.jpg";
 function Experiance() {
   const cardItem = [
     {
       id: 1,
       logo: html,
-      name: "MongoDB",
+      name: "HTML",
     },
     {
       id: 2,
@@ -20,40 +20,40 @@ function Experiance() {
     },
     {
       id: 3,
-      logo: java,
-      name: "Java",
-    },
-    {
-      id: 4,
       logo: javascript,
       name: "JavaScript",
     },
     {
+      id: 4,
+      logo: ReactJs,
+      name: "ReactJs",
+    },
+    {
       id: 5,
-      logo: oracle,
-      name: "Oracle",
+      logo: tailwind,
+      name: "TailWind",
     },
     {
       id: 6,
-      logo: spring,
-      name: "Spring",
+      logo: mongodb,
+      name: "MongoDB",
     },
     {
       id: 7,
-      logo: springBoot,
-      name: "Spring Boot",
+      logo: git,
+      name: "Git",
     },
+
   ];
   return (
     <div
-      name="Experiance"
+      name="Proficiency"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Experiance</h1>
-        <p className="  ">
-          I've more than 2 years of experiance in below technologies.
-        </p>
+      <h1 className="text-3xl font-bold mb-5">Proficiency</h1>
+    
+
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
             <div

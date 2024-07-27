@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pic from "../../public/photo.avif";
+import pic from "../../public/aditi.jpg";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
@@ -20,7 +20,7 @@ function Navbar() {
     },
     {
       id: 4,
-      text: "Experiance",
+      text: "Proficiency",
     },
     {
       id: 5,
@@ -34,8 +34,8 @@ function Navbar() {
           <div className=" flex space-x-2">
             <img src={pic} className="h-12 w-12 rounded-full" alt="" />
             <h1 className="font-semibold text-xl cursor-pointer">
-              Akhi<span className="text-green-500 text-2xl">l</span>
-              <p className="text-sm">Web Developer</p>
+              ADITI SHARMA
+              <p className="text-sm">WEB DEVELOPER</p>
             </h1>
           </div>
           {/* desktop navbar */}
@@ -65,7 +65,7 @@ function Navbar() {
         </div>
         {/* mobile navbar */}
         {menu && (
-          <div className="bg-white">
+          <div className="bg-slate-500">
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
               {navItems.map(({ id, text }) => (
                 <li

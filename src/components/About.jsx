@@ -9,62 +9,41 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Akhil, a passionate Web developer with a keen eye for MERN
-          Stack . With a background in IT, I strive to create impactful and
-          visually stunning Software solutions that leave a lasting impression.
+        I’m Aditi Sharma, a web development enthusiast with a fervent dedication to creating sophisticated, responsive web interfaces. I excel in utilizing HTML, CSS, JavaScript, and React to engineer seamless, user-centric digital experiences. My mission is to craft innovative and impactful solutions that captivate and engage.
         </p>
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-rose-700 font-semibold text-xl">
           Education & Training
         </h1>
         <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+        I am pursuing a Bachelor of Technology in Computer Science and Engineering at United College of Engineering and Research.
+        <br />
+        The curriculum encompasses a comprehensive array of subjects, including software development, data structures, and algorithms, which are crucial for mastering complex technical challenges.
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-rose-700 font-semibold text-xl">
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
+        I excel in programming languages like JavaScript , C++ and  I have a foundational understanding of data structures and algorithms concepts such as arrays, linked lists, stacks, queues, and basic sorting algorithms
+
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Professional Experience
+        <h1 className="text-rose-700 font-semibold text-xl">
+          Achievements
         </h1>
         <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
+        I have attended a comprehensive MongoDB workshop, which provided me with hands-on experience in database management and optimization. In addition, I have completed training programs in web development, enhancing my skills in creating dynamic and responsive web applications. These experiences have broadened my knowledge and practical capabilities, equipping me with the tools to tackle various development challenges and continuously advance my expertise in the field.
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Achievements & Awards
-        </h1>
-        <span>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-rose-700 font-semibold text-xl">
           Mission Statement
         </h1>
         <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
+        My mission is to leverage cutting-edge web technologies to architect sophisticated and user-centric digital solutions. I am dedicated to utilizing my expertise in HTML, CSS, JavaScript, and React to craft elegant, high-performance applications that seamlessly blend aesthetics with functionality.
         </p>
       </div>
     </div>

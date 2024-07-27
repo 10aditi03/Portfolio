@@ -18,7 +18,7 @@ function App() {
         <PortFolio />
         <Experiance />
         <Contact />
-        <Footer />
+        
       </div>
       <Toaster />
     </>
