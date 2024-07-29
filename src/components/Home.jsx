@@ -37,7 +37,7 @@ function Home() {
                 <h1 className="font-bold text-center">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/aditi-sharma-8278572a0/" target="_blank" rel="noopener noreferrer">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
