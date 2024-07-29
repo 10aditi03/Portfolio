@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
 import { SiCss3, SiHtml5 } from "react-icons/si";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import ReactTyped from "react-typed";
+import {ReactTyped} from "react-typed";
 
 function Home() {
   return (
