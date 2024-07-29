@@ -1,15 +1,15 @@
 import React from "react";
 import fpage from "../../public/FrontPage.png";
 import quiz from "../../public/QuizApp.png";
-
+import ttt from "../../public/TicTacToe.png";
 function PortFolio() {
   const cardItem = [
     {
       id: 1,
-      logo: fpage,
-      name: "Portfolio Website",
-      github: "https://github.com/10aditi03/Portfolio", 
-      desc: "Explore my portfolio, featuring projects that demonstrate my skills in web development."
+      logo: ttt,
+      name: "Tic Tac Toe",
+      github: "https://github.com/10aditi03/TicTacToe", 
+      desc: "A simple tic tac toe game made using HTML,CSS and Javascript with winner and reset feature. "
     },
     {
       id: 2,
@@ -17,6 +17,13 @@ function PortFolio() {
       name: "Quiz App",
       github: "https://github.com/10aditi03/QuizApp", 
       desc: "The Quiz App is a web application built with React, designed to offer a dynamic quiz experience. "
+    },
+    {
+      id: 3,
+      logo: fpage,
+      name: "Portfolio Website",
+      github: "https://github.com/10aditi03/Portfolio", 
+      desc: "Explore my portfolio, featuring projects that demonstrate my skills in web development."
     },
   ];
 
