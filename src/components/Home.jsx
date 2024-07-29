@@ -4,8 +4,7 @@ import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
 import { SiCss3, SiHtml5 } from "react-icons/si";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { ReactTyped } from "react-typed";
-
+import ReactTyped from "react-typed";
 
 function Home() {
   return (
@@ -56,11 +55,11 @@ function Home() {
               <div className="space-y-2">
                 <h1 className="font-bold text-center">Download Resume</h1>
                 <a
-                  href="../../public/resume.pdf"
+                  href="/resume.pdf"
                   download
                   className="flex items-center space-x-2 text-black-500 hover:text-black-700"
                 >
-                  <span ><BsFillPersonLinesFill className="text-2xl cursor-pointer ml-16"/></span>
+                  <BsFillPersonLinesFill className="text-2xl cursor-pointer ml-16"/>
                 </a>
               </div>
               <div className="space-y-2">
