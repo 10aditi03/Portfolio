@@ -55,7 +55,7 @@ function Home() {
               <div className="space-y-2">
                 <h1 className="font-bold text-center">Download Resume</h1>
                 <a
-                  href="C:\Users\DELL\Desktop\Adi_Portfolio\public\resume.pdf"
+                  href="/resume.pdf"
                   download
                   className="flex items-center space-x-2 text-black-500 hover:text-black-700"
                 >
