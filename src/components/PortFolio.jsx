@@ -2,6 +2,7 @@ import React from "react";
 import fpage from "../../public/FrontPage.png";
 import quiz from "../../public/QuizApp.png";
 import ttt from "../../public/TicTacToe.png";
+import trvl from "../../public/TravelWeb.png";
 function PortFolio() {
   const cardItem = [
     {
@@ -24,6 +25,13 @@ function PortFolio() {
       name: "Portfolio Website",
       github: "https://github.com/10aditi03/Portfolio", 
       desc: "Explore my portfolio, featuring projects that demonstrate my skills in web development."
+    },
+    {
+      id: 4,
+      logo: trvl,
+      name: "Traveller",
+      github: "https://github.com/10aditi03/Traveller", 
+      desc: " A responsive travel website to book tickets and explore various places to visit."
     },
   ];
 
